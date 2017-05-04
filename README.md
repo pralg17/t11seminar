@@ -9,17 +9,18 @@ ___
 
 Joone arvutamise valem võiks välja näha umbes järgmiselt:
 
-Lisaklass JavaScripti näitel:
-
+Lisaklass ES6 näitel:
+```
 class joonevõrrand extends lineaarvõrrand (a,b) {
     super(a,b);
     leiaX(double: x) {
         return ((this.a*x)+b)
     }
 }
-
+```
 Päringu vastu võtmine ning arvutus toimuks Node Express najal järgmiselt:
-
+```
 app.get("/LV/joonepunkt/:x", (req,res)) {
     res.send(`Joon lõikub Y-teljega punktis ${joonevõrrand.leiaX(req.params.x)}.`)
 }
+```
