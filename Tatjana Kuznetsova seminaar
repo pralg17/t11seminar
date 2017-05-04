@@ -1,0 +1,5 @@
+HTML-lehe sidumine REST-teenusega XMLHttpRequesti abil
+REST — REpresentational State Transfer.
+REST teenus sidutakse HTML lehega XMLHttpRequest objekti  abil. 
+On vaja teha HTML lehe JavaScriptiga. 
+HTML spetsifikatsioon võimaldab saada andmed ainult GET või POST kaudu, sellega ei saa teha vormi mis saadab PUT/DELETE päringud, see pärast normaalse tööga teise meetodig on vaja ignoreerida neid tehislikult. 
