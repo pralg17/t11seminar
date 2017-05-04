@@ -12,11 +12,18 @@ java loodi uuemate protsessorite töö tarbeks
 kasutatakse nt kella kuvamiseks, värvide koostamiseks, animatsioonide tegemiseks,
 joonistamiseks, kasutaja andmetele ja tegevustele reageerimine, arvutamine,
 //alamprogrammid//, suurte andmemasside töötlemiseks, struktuursete andmetüüpide koostamine(massiiv),
-erinevates brauserites, operatsinoonisüsteemides, appides,
+*****erinevates brauserites, operatsinoonisüsteemides, appides, kosmoseavastuse tarbeks, panganduses,
+aktsiaturul
  
 
 käivitamine
-terminali läbi
-springiga läbi terminali
-servlet
+terminali läbi javac *.java ++ java failinimi
+springiga läbi terminali kompillerid maveniga mis jookustab rakendust
+
+java servlet, laiendab java võimalusi, kuigi seda saab kasutada mistahes töö tegemiseks
+kasutatakse seda enamasti veebiserverites, kus servleti jooksutamiseks on vaja kasutada veebi konteinerit, mille ülesandeks on
+servleti elutsükli kontrollimine ning URLi mappimine kindlale servletile ja see kindlustab et URL requesteril oleksid õiged
+ligipääsuõigused
+
+
 applet
