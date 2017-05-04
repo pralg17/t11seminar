@@ -1,0 +1,28 @@
+* Java Listi loomine ja kasutamine. ArrayListi ja LinkedListi erinevus
+
+1. Listi looomine ja kasutamine.
+
+Java's enne listi kasutamist on vaja teha "import java.util.ArrayList" või "import java.util.LinkedList".
+
+List list1 = new ArrayList(); // list nimetusega "list1", tüüp - ArrayList.
+List list2 = new LinkedList(); // list nimetusega "list2", tüüp - LinkedList.
+
+
+listA.add("element 1"); //
+listA.add("element 2"); // listi lisatakse elemente.
+listA.add("element 3"); //
+listA.add(0, "element 0"); // siin lisatakse teatud kohale, kuna kasutasel indeks (0). 
+
+
+String element0 = listA.get(0); // 
+String element1 = listA.get(1); // võtab indeksiga elemendi listist. ehk siis String element1 == "element 1".
+String element3 = listA.get(2); //
+
+
+remove(Object element) // kui selline element olemas - kustutab listist.
+remove(int index) // kustutamine indeksiga
+
+listA.clear(); // kõikide elementide kustutamine.
+
+
+2. ArrayListi on soovitatav kasutada siis, kui prioriteedis on elementide valimine indeksiga. LinkedListi - siis, kui tihti toimub elementide sisestamine/kustutamine. 
