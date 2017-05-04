@@ -1,0 +1,22 @@
+Selleks et saaks koostada andmepäringuid andmebaasi tuleb lisada fail dao (Data access object). 
+Selle sisu üheks variandiks on :
+
+  import javax.transaction.Transactional;
+  import org.springframework.data.repository.CrudRepository;
+  @Transactional
+  interface PersonRepository extends Repository<Person, Long> { … }
+
+ning rakendusfail peaks sisaldama järgnevat: 
+
+
+
+ public class SomeClient {
+
+   @Autowired
+   private PersonRepository repository;
+
+   public void doSomething() {
+     List<Person> persons = repository.findByLastname("Matthews");
+   }
+ }
+
