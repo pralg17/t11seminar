@@ -1,0 +1,22 @@
+Objektorienteerituse head ja tülikad küljed
+
+The Good:
+1) Hea produktiivsus. Objektorienteeritusega on kerge jagada tööülesandeid. 
+Kerge on täiendada programmi, objektidele on lihtne lisada atribuute ja käitumisi (meetodeid/funktsioone).
+Objekte saab lihtsalt taaskasutada terves rakenduses.
+
+2) Koodi on kerge ülal pidada, kuna disain on modulaarne.
+
+3) Kiire arendus: kuna objekte saab taaskasutada, on vähe koodi uuestikirjutamist. 
+Loodud objekte saab lihtsalt üle tuua ka teistsse programmidesse.
+
+
+The Bad:
+
+1) Kõrge õpiaeg. Objektorienteeritusega programmeerimiseks on vaja teatud mõtteviisi, mis on mõnele inimesele raske.
+
+2) Rohkem ridu koode, mahult suuremad programmid.
+
+3) Aeglasemad programmid võrreldes teiste programmeerimisviisidega.
+
+4) Iga probleemi jaoks ei sobi. 
