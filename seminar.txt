@@ -11,10 +11,11 @@ Selleks on vaja paar rida pom.xml faili panna:
 	 <groupId>mysql</groupId>
 	<artifactId>mysql-connector-java</artifactId>
 	
-Näiteks mySQL-iga ühendudes on vaja ka andmebaasi juurdepääsuandmeid nagu
+Näiteks mySQL-iga ühendudes on vaja ka andmebaasi juurdepääsuandmeid nagu:
 	* andmebaasi URL
 	* andmebaasi username
 	* andmebaasi parool
+Neid saab hoida näiteks application.properties failis.
 	
 Andmebaasiga suhtlemiseks on tarvis mingit haldurit, ning eraldi klass, mis andmebaasi andmetega toimetab.
 
