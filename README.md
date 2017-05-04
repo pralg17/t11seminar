@@ -12,7 +12,7 @@
 * math.BigDecimal - x bait'i konstrueeritav. Vahemik: x ~ y
 
 ### Muu
-* void - bait'i null operaator Pole parameetreid(väärtuseid).
+* void - 0 bait'i null operaator. Pole parameetreid(väärtuseid).
 * boolean - 1/8 bait'i kahendväärtus. Vahemik: false ~ true 	
 * char - 2 bait'i tähtmärk. Vahemik: Unicode 0 ~ 65535
 * String - 4 bait-4GB sõne iga element. Vahemik: Unicode 0 ~ 65535
