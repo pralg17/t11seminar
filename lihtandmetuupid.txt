@@ -11,21 +11,22 @@
 Need põhilised andmetüübid on jaotatud küll kaheksaks, aga põhimõtteliselt
 saab neid jaotada omaetta nelja kategooriasse - täisnumbrid,komanumbrid, tõeväärtused ja tähed.
 
-Byte on andmetüüp numbri salvestamiseks mille väärtus on -128 ja 127 (kaasarvatud) vahel. Selline piirang tuleneb sellest, et byte jaoks eraldatakse 8 bitti mälu ning nende 0 ja 1'de kombinatsioon summa on 255. Kasutatakse enamasti mälu kokkuhoidmiseks, kui ollakse kindel et muutja väärtus on piirkonna sees. (byte a = 100;)
+Byte on andmetüüp numbri salvestamiseks mille väärtus on -128 ja 127 (kaasarvatud) vahel. 
+Selline piirang tuleneb sellest, et byte jaoks eraldatakse 8 bitti mälu ning nende 0 ja 1'de kombinatsioon summa on 255. 
+Kasutatakse enamasti mälu kokkuhoidmiseks, kui ollakse kindel et muutja väärtus on piirkonna sees. (byte a = 100;)
 
-Short on samuti andmetüüp numbrite salvestamiseks ning võtab kaks korda vähem mälu kui int. Võimalikud väärtused on -32768 JA 32767 vahel. Kasutatakse mälu kokkuhoiuks kui byte'st ei piisa ja int pole vajalik.
+Short on samuti andmetüüp numbrite salvestamiseks ning võtab kaks korda vähem mälu kui int. Võimalikud väärtused on -32768 JA 32767 vahel. 
+Kasutatakse mälu kokkuhoiuks kui byte'st ei piisa ja int pole vajalik.
 
 Int on põhiline andmetüüp numbrite salvestamiseks ning koosneb 32-bittist, mille võimalikud väärtused on vahemikus - 2,147,483,648 ja 2,147,483,647.
 
 Long on kõige mälumahukam viis täisnumbrite salvestamiseks ning koosneb 64-bittist vahemikus 9,223,372,036,854,775,808 kuni 9,223,372,036,854,775,807.
 
+Float on komanumbrite salvestamiseks, 32-bitti. Ei kasutada täpsete väärtuste jaoks kunagi. nt pangandus. 7 komakohta.
 
-Float on komanumbrite salvestamiseks, 32-bitti. Ei kasutada täpsete väärtuste jaoks kunagi. nt pangandus.
+Double on komanumbrite salvestamiseks, 64-bitti. Default väärtus komakohtade salvestamiseks, samuti ei kasutata täpsete väärtuste jaoks nt pangandus, 14 komakohta.
 
-Double on komanumbrite salvestamiseks, 64-bitti. Default väärtus komakohtade salvestamiseks, samuti ei kasutata täpsete väärtuste jaoks nt pangandus.
-
-Boolean hoiab endas ainult kahte võimalikku väärtust. Tõene ja vale ning kasutatakse enamasti loogikavaldistest.
-
+Boolean hoiab endas ainult kahte võimalikku väärtust. Tõene ja vale ning kasutatakse enamasti loogikavaldistest. Võtab sisse ühe byte.
 Char on andmetüüp UNICODE sümbolite salvestamiseks ning on 16-bitti suurune.
 
 
