@@ -20,3 +20,7 @@ The Bad:
 3) Aeglasemad programmid võrreldes teiste programmeerimisviisidega.
 
 4) Iga probleemi jaoks ei sobi. 
+
+5) Halva implementeerimise korral ei kehti ükski hea külg.
+
+6) 
