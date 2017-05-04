@@ -1,0 +1,5 @@
+Andmete muutmist lubava klassi eksemplari kasutamine koordinaatidega kilpkonna näitel.
+
+**************************************************************************
+
+Eksisteerib kilpkonna klass ja laua klass mis kuvab kilpkonna asukohta laual. Lisaks suuna omadusele (muutuja) on kilpkonna klassil x ja y koordinaadid omadustena. Koordinaadid ei saa olla negatiivsed. Samuti ei saa suund olla väiksem kui 0 ja suurem kui 3. 1 - 90 kraadi, 2 - 180 kaardi, 3 - 270 kraadi ja 0 on 360 kraadi ehk 0 kraadi. Kilpkonna klassil on vastavad meetodid vasakule pööramiseks, paremale pööramiseks ja edasi liikumises mis muudavad klassi "suund" omadust. Samuti eksisteerib suunasümbolite massiiv kirjeldamaks kilpkonna hetkesuunda laual koos koordinaatidega.
