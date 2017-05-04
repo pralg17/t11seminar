@@ -1,0 +1,13 @@
+XmlHttpRequest on JS objekt. Annab võimaluse brauserile teha HTTP requestid ilma lehe refreshimata.
+Saatma ja saama andmed serverist peale lehe laadimist.
+XML sõna ei ole oluline, kuna objekt võib töötada igat tüüpi andmetega teksti formaadis, isegi binaarsete andmetega.
+
+Kasutada on lihtne.
+Tekitate objekti eksemplaari, avate URL ja saadate requesti.
+
+
+var req = new XMLHttpRequest();
+req.open('GET', 'http://www.tlu.ee', true); 
+req.send(......);
+if(req.status == 200)
+  dump(req.responseText);
