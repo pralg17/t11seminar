@@ -1,0 +1,30 @@
+Java massiivide loomine ja kasutamine
+
+
+Massiiv (array) on kõige lihtsam kogumitüüp. Peaaegu kõik teised kogumid saab realiseerida massiivide peal (ja seda paljud reaalselt ka kasutavad).
+Massiiv on fikseeritud pikkusega kogum - peale massiivi loomist pikkust enam muuta ei saa. Massiivi kõik elemendid peavad olema sama tüüpi (või alamtüüpi).
+Elementide indeksid hakkavad 0-st. Ehk siis massiivi esimese elemendi indeks on 0 jne.
+Massiivi esimene element massiiv[0]
+Massiivi pikkus massiiv.length
+Massiivi viimane element massiiv[massiiv.length - 1]
+
+Näide:
+
+int[] massiiv = new int[10];
+massiiv[0] = 1;
+massiiv[9] = 10;
+//massiiv[10] ei mahu enam massiivi, kuna on 11. element
+ 
+System.out.println(massiiv[0]); // 1
+System.out.println(massiiv[1]); // 0 - int massiivi element on vaikimisi 0
+ 
+// algväärtustame 1..10
+for (int i = 0; i < massiiv.length; i++) {
+	massiiv[i] = i + 1; // indeks liigub 0..9, väärtused 1..10
+}
+// leiame elementide summa
+int sum = 0;
+for (int i = 0; i < massiiv.length; i++) {
+	sum = sum + massiiv[i];
+}
+System.out.println("Massiivi elementide summa: " + sum);
