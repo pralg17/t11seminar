@@ -10,3 +10,6 @@ int[] myIntArray = new int[]{1,2,3};
 
 mitmedimensioonilise loomine:
 int[][] num = new int[5][2];		:: 5x2 liikmest koosnev massiiv
+
+massiivi liikmed on indekseeritud, indekseerimine algab 0-st
+viitamine toimub myIntArray[i]
