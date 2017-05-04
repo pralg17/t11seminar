@@ -1,0 +1,21 @@
+JPA andmebaasi ühendumine Spring Boot veebirakenduse juures
+
+
+SpringBooti raames on võimalik ühendada veebirakendus välise andmebaasiga.
+
+Selleks on vaja paar rida pom.xml faili panna:
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-data-jpa</artifactId>
+	
+	ja kui mySQL-iga ühendada, siis
+	 <groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	
+Näiteks mySQL-iga ühendudes on vaja ka andmebaasi juurdepääsuandmeid nagu
+	* andmebaasi URL
+	* andmebaasi username
+	* andmebaasi parool
+	
+Andmebaasiga suhtlemiseks on tarvis mingit haldurit, ning eraldi klass, mis andmebaasi andmetega toimetab.
+
+Rakenduse fail (see kus main class on) võtab siis klassist andmed ja teeb nendega midagi.
