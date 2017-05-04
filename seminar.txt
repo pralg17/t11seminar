@@ -17,6 +17,12 @@ Näiteks mySQL-iga ühendudes on vaja ka andmebaasi juurdepääsuandmeid nagu:
 	* andmebaasi parool
 Neid saab hoida näiteks application.properties failis.
 	
-Andmebaasiga suhtlemiseks on tarvis mingit haldurit, ning eraldi klass, mis andmebaasi andmetega toimetab.
+Andmebaasiga suhtlemiseks on tarvis mingit haldurit, mis on interface,
+	mille sisu imporditakse välistest teekidest.
 
-Rakenduse fail (see kus main class on) võtab siis klassist andmed ja teeb nendega midagi.
+ning eraldi klass, mis andmebaasi andmetega toimetab,
+	kus määratakse veebirakenduse jaoks ära andmebaasitabeli nimi ja tabeli tulbanimed.
+
+Rakenduse klass võtab siis mõnest teisest klassist andmebaasi andmed ja teeb nendega veebirakenduses midagi, näiteks:
+	otsib id järgiandmebaasist, kuvab loetelu, lisab, kustutab ridu.
+	Selleks vajalikud funktsioonid imporditakse mujalt teekidest.
