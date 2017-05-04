@@ -1,0 +1,10 @@
+* Java Listi loomine ja kasutamine. ArrayListi ja LinkedListi erinevus
+
+Listi loomine ja kasutamine:
+	ArrayListi loomine: ArrayList<String> listinimi = new ArrayList<String>();
+	LinkedListi loomine: LinkedList<String> listinimi = new LinkedList<String>();
+	Listi lisamine: listinimi.add("asd");
+	Listist lugemine: listinimi.get(0);
+ArrayListi ja LinkedListi erinevused:
+	ArrayList on list, kus elemendid on omavahel järjestuses ning LinkedList on list, kus järjestikused elemendid on omavahel seotud.
+	ArrayListis on parem andmeid hoida. LinkedListis on parem andmeid käsitseda. ArrayListis andmetega tegelemine on aeglasem, kui LinkedListis.
