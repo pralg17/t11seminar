@@ -1,4 +1,4 @@
-#Andmete sisestamiseks erinevad andmetyybid
+# Andmete sisestamiseks erinevad andmetyybid
 
 **Täisarvud:**
 
