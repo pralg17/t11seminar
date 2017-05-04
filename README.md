@@ -14,7 +14,7 @@ Lisaklass ES6 näitel:
 class joonevõrrand extends lineaarvõrrand (a,b) {
     super(a,b);
     leiaX(double: x) {
-        return ((this.a*x)+b)
+        return ((this.a*x)+this.b)
     }
 }
 ```
