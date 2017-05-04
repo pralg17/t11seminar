@@ -1,0 +1,28 @@
+* HttpSessioni abil objekti(de) meeles pidamine brauserisessiooni vältel
+	
+	HttpSession objekt eraldab mälu serverisse ja salvestab kliendi andmeid
+	rohkem kui ühel lehel page requestiga. Iga kord kui kasutaja loob ühenduse serveriga
+	genereeritakse ning salvestatakse uus sessioon .Iga browseri akna jaoks on uus objekt
+	ja igat objekti saab kasutada terve sessiooni vältel.	
+	
+*Märksõnad
+	* Java lihtandmetüübid
+	  Lihtandmetüüpideks Java-s on byte, short, int, long, float, double, char ja boolean.Nendest saab kombineerida struktuurtüüpe. Lihttüübi muutujas on väärtus, struktuurtüübi omas osuti isendile. Struktuurtüübist muutuja tühivääruseks on null. Nii liht- kui struktuurtüüpi andmeid saab paigutada massiivi.
+	  täisarvud: byte, short, int ja long (vastavalt 8-, 16-, 32- ja 64-bitilised);
+	  ujukomaarvud: float ja double (vastavalt 32- ja 64-bitilised);
+	  Unicode-sümbolid: char (16-bitilised);
+	  tõeväärtused: boolean (true või false).
+	  
+	* JPA andmebaasi ühendumine Spring Boot veebirakenduse juures on minimaalne failide arv 2.
+
+	*java kasutusvaldkonnad, käivitamise moodused
+
+	 java loodi uuemate protsessorite töö tarbeks
+	 kasutatakse nt kella kuvamiseks, värvide koostamiseks, animatsioonide tegemiseks,
+	 joonistamiseks, kasutaja andmetele ja tegevustele reageerimine, arvutamine,
+	 //alamprogrammid//, suurte andmemasside töötlemiseks, struktuursete andmetüüpide koostamine(massiiv),
+	 erinevates brauserites, operatsinoonisüsteemides, appides,
+	 
+	*Automaattest rakenduse kohta
+	 Javas kavandatud funktsioon, kontrollitavate lähteandmetega, mis annab tagasisidet lahenduse kohta.	
+		
