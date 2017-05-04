@@ -8,7 +8,7 @@ public class Kasutus{
 	
 	
 	public static void main (String[] args){
-		 // TEEN KLASSIDE OBJEKTID
+		 // TEEN MUUTUJAD, MIS ON SEOTUD KLASSIDEGA
 		Euroks yks = new Euroks();
 		Dollariks kaks = new Dollariks();
 		Rublaks kolm = new Rublaks();
