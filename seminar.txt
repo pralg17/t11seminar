@@ -1,0 +1,7 @@
+REST-teenuse loomine lineaarvõrandit ax+b=0 lahendava veebiaadressi näitel:
+
+Tuleb luua lahendus @RequestMapping mille kaudu saadad urli või siis Html faili tehtud 
+formide kaudu sisse andmed mis jõuavad läbi RestControlleri funktsioonideni. 
+Antud näitel tuleks ära määrata koodis muutujad a,x ja b ning kui saata need väärtused 
+URL'il sisse (/arvutamine?a=mingi number&x=mingi number&b=mingi number) siis võtab 
+funktsioon need sisse ja kas tagastab vastuse või teeb midagi.
