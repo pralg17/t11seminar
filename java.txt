@@ -1,0 +1,6 @@
+Java Listi loomine ja kasutamine:
+	List nimi = new ArrayList();
+	Kasutamiseks on erinevad meetodid. N: nimi.add("Tere"), nimi.get(0), nimi.size()
+ArrayListi ja LinkedListi erinevus:
+	ArrayList: List, kus elememndid on järjestikku, nii et igal elemendil on oma index, mille järgi seda kätte saab.
+	LinkedList: List, kus järjestikused elemendid on omavahel seotud. Kuskilt keskelt elemendi leidmine on aeglane, eemaldamine või lisamine aga kiire.
