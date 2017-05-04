@@ -1,0 +1,14 @@
+Andmete lisamine, primaarvõtme järgi küsimine, muutmine
+
+
+@Id genereerib primary key 
+
+@GeneratedValue abil luuakse primary key'le automaatselt väärtus
+
+getGeneratedKeys() abil saame kõik primaarvõtmega andmed
+
+
+
+
+
+
