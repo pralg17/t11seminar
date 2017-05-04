@@ -1,0 +1,95 @@
+* Java Listi loomine ja kasutamine. ArrayListi ja LinkedListi erinevus
+
+1. Listi looomine ja kasutamine.
+
+Java's enne listi kasutamist on vaja teha "import java.util.ArrayList" või "import java.util.LinkedList".
+
+List list1 = new ArrayList(); // list nimetusega "list1", tüüp - ArrayList.
+List list2 = new LinkedList(); // list nimetusega "list2", tüüp - LinkedList.
+
+
+listA.add("element 1"); //
+listA.add("element 2"); // listi lisatakse elemente.
+listA.add("element 3"); //
+listA.add(0, "element 0"); // siin lisatakse teatud kohale, kuna kasutasel indeks (0). 
+
+
+String element0 = listA.get(0); // 
+String element1 = listA.get(1); // võtab indeksiga elemendi listist. ehk siis String element1 == "element 1".
+String element3 = listA.get(2); //
+
+
+remove(Object element) // kui selline element olemas - kustutab listist.
+remove(int index) // kustutamine indeksiga
+
+listA.clear(); // kõikide elementide kustutamine.
+
+
+2. ArrayListi on soovitatav kasutada siis, kui prioriteedis on elementide valimine indeksiga. LinkedListi - siis, kui tihti toimub elementide sisestamine/kustutamine. 
+
+==============Add====================
+---Add elements ( 6kk )
+LinkedList: 2264 ms
+ArrayList: 493 ms
+ArrayList is faster
+
+==============Insert=================
+---Insert elements to begin( 100k )
+LinkedList: 132 ms
+ArrayList: 2742 ms
+LinkedList is faster
+
+---Insert elements to middle( 60k )
+LinkedList: 4110 ms
+ArrayList: 494 ms
+ArrayList is faster
+
+==============Remove=================
+---Remove elements from begin ( 100k )
+LinkedList: 2 ms
+ArrayList: 3220 ms
+LinkedList is faster
+
+---Remove elements from middle ( 100k )
+LinkedList: 7519 ms
+ArrayList: 1544 ms
+ArrayList is faster
+
+---Remove elements from end ( 1kk )
+LinkedList: 37 ms
+ArrayList: 8 ms
+ArrayList is faster
+
+==============Get====================
+---Get elements from begin ( 4kk )
+LinkedList: 25 ms
+ArrayList: 7 ms
+ArrayList is faster
+
+---Get elements from middle ( 40k )
+LinkedList: 2320 ms
+ArrayList: 0 ms
+ArrayList is faster
+
+---Get elements from end ( 3kk )
+LinkedList: 23 ms
+ArrayList: 5 ms
+ArrayList is faster
+
+==============Set==================== 
+---Set elements at begin ( 1kk )
+LinkedList: 342 ms
+ArrayList: 12 ms
+ArrayList is faster
+
+---Set elements at middle ( 50k )
+LinkedList: 3734 ms
+ArrayList: 1 ms
+ArrayList is faster
+
+---Set elements at end ( 3kk )
+LinkedList: 40 ms
+ArrayList: 267 ms
+LinkedList faster
+
+==============Finish=================
