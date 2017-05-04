@@ -1,0 +1,14 @@
+Java kasutusvaldkonnad, käivitamise moodused
+
+
+Java kasutusvaldkonnad:
+
+#Veebirakenduste arendamisel
+#Android rakenduste arendamisel
+
+Javat kasutatakse panganduses, aksiate müügis, suurte andmete hulga töötlemisel - praktiliselt igal pool.
+
+Käivitamise moodused -
+
+Javat on võimalik käivitada mitut moodi - läbi Spring Booti, terminali(eelnevalt kompileeritud).
+Käsklused kävitamiseks ning kompileerimiseks(läbi terminali) - javac * .java(kompileerimiseks) ning java Koer(käivitamiseks).
