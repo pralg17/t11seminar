@@ -1,3 +1,5 @@
+OMA TEEMA:
+
 ﻿Java põhilised andmetüüpid jagunevad kaheksaks:
 *byte
 *short
@@ -28,5 +30,26 @@ Double on komanumbrite salvestamiseks, 64-bitti. Default väärtus komakohtade s
 
 Boolean hoiab endas ainult kahte võimalikku väärtust. Tõene ja vale ning kasutatakse enamasti loogikavaldistest. Võtab sisse ühe byte.
 Char on andmetüüp UNICODE sümbolite salvestamiseks ning on 16-bitti suurune.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+List methods:
+get()
+add()
+size()
+delete()
+remove()
+clear() // Tapab kõik.
+
+ArrayList kasutab indekseid elementide otsimiseks. Soovitatav kui on vaja otsida massilisest listist.
+LinkedList siis kui on pidev lisamine/kustutamine. Soovitav kui on vaja massilise listi kooslust pidevalt muuta.4
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+OOP turvalisus seisneb andmete kindlustamisest, ei lase muuta andmeid niisama.
+Vajalikuks teatud mõtteviisi mis või selle õppimist raskentada.
+Suurematest boonusteks on koodi korduvkasutatuvus.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
