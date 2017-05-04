@@ -1,0 +1,10 @@
+
+
+
+Javas kavandatud funktsioon, kontrollitavate lähtandmetega, mis
+annab tagasisidet lahenduse kohta. 
+
+Näiteks: registreerimisvorm, kus kontrollitakse kasutajaid
+või näiteks kolmnurga, hulknurga väärtuste kontollimine
+
+
