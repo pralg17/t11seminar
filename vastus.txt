@@ -1,0 +1,5 @@
+ Küsimus: Konkreetse klassi eksemplari funktsiooni töö testimise näide (kilpkonna näitel)
+ 
+ On olemas kaks klassi - kilpkonna klass ja kilpkonna laua klass. Viimane kuvab kilpkonna asukoha laual. Muutujateks on antud x ja y mis on koordinaadid ning seega ei saa olla negatiivsed. Samuti ei saa suuna väärtused olla 0 ega üle 3e. Klassi "suund" muutmiseks on kilpkonna klassil olemas erinevad meetodid pööramiseks ja edasi liikumiseks. 
+ 
+ Loodud on ka eraldi massiiv kuhu talletatakse kilpkonna hetkesed koordinaadid ja hetkene suund.
