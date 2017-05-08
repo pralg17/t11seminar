@@ -1,0 +1,6 @@
+*AUTOMAATTESTID RAKENDUSE KAVANDAMISE JUURES
+
+Automaatteste saab kasutada rakenduse kavandamise juures näiteks rakenduse väiksemate osade/moodulite testimiseks. Selline lähenemine sobiks inkrementaalse tarkvaraarenduse juures, kus rakenduse kavandamisel luuakse väiksemad inkrementaalsed moodulid/pluginad, millele saab kohe kavandamise ajal juurde mõelda detailsed automaattestid nende moodulite ja pluginate koheseks kontrollimiseks.
+
+Automaattestide kavandamine koos rakenduse endaga on väga tark just selliste rakenduste puhul, kus rakendus ei tohi mingil moel testitava suhtes vigane olla (näiteks meditsiini puhul/isejuhtivad sõidukid ja autopiloodid/opsüsteemi kernel). 
+
