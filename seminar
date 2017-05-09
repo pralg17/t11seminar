@@ -1,0 +1,17 @@
+Java Listi loomine ja kasutamine. ArrayListi ja LinkedListi erinevus
+
+Java listi loomine ja kasutamine:
+List on elemedide teatud jarjestus, listi massiivi vqib programmi kaivitusel vaba muuta,
+ning elemendti saav erinevattese kohtadesse lisada ja eemalada. 
+Listi operatsioonid on java.util.List. 
+Mingi tapse listi loomisel saab kasutada klassid , mis realiseerib liidese (ArrayList.LinkedList)
+Moned toimingud Listiga:
+list.get() votab mingi elemendi
+list.contains() kontrollib sisaldus
+list.size()pikkuse kusimine
+list.remove() eemalad elemendi indeksi jargi
+
+AraayList ja LinkedListi:
+ArrayList ja LinkedList erinevus on see, et LinkedList listi elemedid on
+seatud omavahel.
+ArrayListil igal elemendil on oma indeks.
