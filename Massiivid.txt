@@ -1,0 +1,20 @@
+﻿Massiiv ehk array on järjestatud andmete kogum kus kõik andmed ehk elemendid on sama tüüpi ning iga element on nummerdatud.
+Iga konkreetse elemendi viitamiseks saab kasutada tema positsiooni numbrit massiivi järjestuses.
+Massiivil on kindel pikkus mida peale kehtestamist muuta ei saa. 
+Ühemõõtmelist massiivi nim. ka järjendiks, kahemõõtmelist massiivi maatriksiks või tabeliks.
+Massiivi viimase elemendi positsioon on pikkus - 1. Ehk kui massiivi pikkus on kehtestamise ajal 5, siis viimase elemendi indeks on selles ühe võrra vähem 4.
+Massiiv on enimkasutatud andmeobjekt tänu selle lihtsusele ja mitmekülgsusele. Eriti suure koguse andmete säilitamiseks ja töötlemiseks.
+
+Massiivi süntaks on näiteks:
+
+		 int[] list =  new int[10]
+
+Kus kehtestakse massiiv nimega list, mis suudab hoida 10 numbriväärtust ja esimene järjekorranumber on 0 ning viimane 9.
+
+Massiivi iseloomustavad seega:
+massiivi nimi 
+massiivi elemendi tüüp
+massiivi indeksite arv ja indeksite tüübid
+massiivi elementide arv 
+massiivi elementide väärtused
+
