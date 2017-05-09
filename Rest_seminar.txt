@@ -1,0 +1,17 @@
+*Rest- Representational State Transfer
+*Vaja HTML, java rakendust ja andmebaasi
+*Rest ühendab Java rakenduse HTML-i andmebaasiga.
+*Teenus kasutab 4 operaatorit: PUT, GET, POST ja DELETE.
+*Näiteks kui tehakse GET päring teatud ressurssi ja id peale,
+ tagastab seepeale selle ressursi millele vastab päringustsaadud id atribuudi.
+Seevastu POST päring uuendab selle id all olevat kirjet. REST-is iga tegusõna (GET, POST,
+PUT ja DELETE) omab kindlat tähendust, sellega välditakse kahemõttelisust.
+*Kui veebiteenus kasutab REST arhitektuuri, siis kutsutakse seda RESTful või REST API-ks.
+Kombineerides REST teenuse ja JSON andmetüübi, on võimalik luua väga kergekaaluga
+päringute kihte, seetõttu edastatakse ainult küsitud andmed ning sellepeale ei tehta terve lehe
+uuesti kompileerimist, mis toimub näiteks halvasti programmeeritud PHP lehega.
+
+Näide lineaarvõrrandit ax+b=0 lahendav veebiaadress juhul kui ehitada RESTful Maveniga:
+*src/main/java/Rakendus
+*loo pom.xml
+* siis fail kus @RestController ja @SpringBootApplication ja koodiread antud ülesande täitmiseks.
