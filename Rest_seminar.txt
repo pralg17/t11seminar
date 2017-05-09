@@ -1,6 +1,6 @@
 *Rest- Representational State Transfer
 *Vaja HTML, java rakendust ja andmebaasi
-*HTML vorm, saadab andmed kontrollerisse ja sealt liiguvad funktsiooni
+*Rest ühendab Java rakenduse HTML-i andmebaasiga.
 *Teenus kasutab 4 operaatorit: PUT, GET, POST ja DELETE.
 *Näiteks kui tehakse GET päring teatud ressurssi ja id peale,
  tagastab seepeale selle ressursi millele vastab päringustsaadud id atribuudi.
