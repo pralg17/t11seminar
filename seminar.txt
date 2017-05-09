@@ -1,0 +1,10 @@
+Objektorienteeritud programmeerimine:
+	HEAD - Soodustab koodi taaskasutamist
+		 - Kui on hästi läbimõeldud ja ülesehitatud, on kerge hooldada
+		 - Kergesti skaleeritav
+	
+	VEAD - Võib kasutada natuke rohkem ressursse, kui halvasti tehtud
+		 - Kohati keeruluisem (vajab rohkem akadeemilisi teadmisi)
+		 - Vajab rohkem dokumentatsiooni, et paremini aru saada
+		 - Vajab suhteliselt palju läbimõtlemist, et oleks efektiivne
+	
