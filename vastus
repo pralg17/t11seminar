@@ -1,0 +1,7 @@
+Spring Boot veebirakenduse loomiseks ja käivitamiseks vajalikud failid ja tegevused
+
+Esiteks peab olema õiged projecti failid(directorys) maveni käivitamise jaoks.
+Et spring boot veebirakendust luua on vaja pom.xml faili.
+On vaja faili lisada
+Pead käivitama maveni kirjutades scl enable rh-maven33 bash
+
