@@ -1,0 +1,12 @@
+HTML-lehe sidumine REST-teenusega XMLHttpRequesti abil
+REST on Representational State Transfer.
+XMLHttpRequest on JS objekt, mis annab võimaluse teha HTTP requeste ilma lehe refreshimiseta.
+REST seotakese HTML lehega XMLHttpRequest objekti abil.
+Andmeid saadakse ainult GET või POST abil, vastavalt HTML spetsifikatsioonile. PUT või DELETE
+päringuid ei saa teha, seega on vaja neid mitte tähele panna.
+
+var req = new XMLHttpRequest();
+req.open('GET', 'http://www.google.com', true); 
+req.send(......);
+if(req.status == 200)
+    dump(req.responseText);
