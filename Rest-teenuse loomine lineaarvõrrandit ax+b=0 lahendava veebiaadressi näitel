@@ -1,0 +1,7 @@
+ Rest-teenuse loomine lineaarvõrrandit ax+b=0 lahendava veebiaadressi näitel
+ 
+ Tehakse klass andmes klassi sisse andmete lisamiste jaoks. 
+ 
+ Tehakse Rest teenuse klass, mis võtab andmed ja kasutab neid võrrandi lähendamise jaoks. 
+ 
+ HttpSessioni abil sisestakse muutujate väärtused, ja siis Rest server annab väjlja lahendamist
