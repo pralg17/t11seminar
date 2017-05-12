@@ -1,0 +1,17 @@
+Spring Boot
+
+Vajalikud käsklused:
+
+scl enable rh-maven33 bash
+mvn package
+java -jar target/app1.jar
+http://greeny.cs.tlu.ee:6161/joed
+
+Vajalikud failid:
+pom.xml
+
+Kaustad:
+
+target-test(java(gittkaus)),main(resources(templates,static),java(gittkaus(failid))
+src-(test(java(gittkaus)),main)
+pom.xml
