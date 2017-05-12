@@ -1,6 +1,8 @@
 
 Mark Väljak 2 küsimus
 
+8 tüüpi lihtandmetüüpe
+
 byte
 defaut value on 0
 8 biti
@@ -24,6 +26,8 @@ long
 kaks korda suurema mäluga kui int
 64 biti mälu
 Maximum value is 9,223,372,036,854,775,807
+default value on 0L
+kasutatakse suurtemate arvude puhul ui int 
 
 float
 Default value is 0.0f
@@ -31,6 +35,7 @@ Default value is 0.0f
 double
 64-bit
 Default value is 0.0d
+komakohaarvud  nt 1.34
 
 boolean
 1 bit
@@ -40,4 +45,12 @@ Default value is false
 char
 char on 16 biti unicode täht
 kasutatakse stringide salvestamiseks 
-8 tükki 
+
+
+
+
+Java kasutusalad
+Veeb, mobiil, suuremahulised programmid
+
+
+
