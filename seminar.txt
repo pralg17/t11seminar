@@ -5,4 +5,4 @@ int[] someNumbers = new int[10];
 Sellisel juhul on massiivi elemendi tüüp int (täisarv). Lisaks määratakse ka massiivi pikkus, milleks on 10 elementi, st reserveeritakse mälu massiivile. Esimene element on someNumbers[0]. Esimese elemendi saaks väärtustada nii: someNumbers[0] = 5;
 
 
-Massiive kasutatakse juhul kui muutujate arv on liiga suur ning miassiivide kasutamine lihtsusatb sellega muutujate kasutamist.
+Massiive kasutatakse juhul kui samatüübilisi elemente on liiga palju ning massiivide kasutamine lihtsusatb elementide kasutamist.
