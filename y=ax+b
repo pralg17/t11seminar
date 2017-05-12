@@ -1,0 +1,9 @@
+* Oma täiendava(te) klassi(de) kasutamine veebilahenduse juures joone punktide arvutamisel y=ax+b valemiga
+
+
+
+On vaja luua kaks klassi. (arvutamise andmed ja andmete klass)
+
+Esimesse klassi lisad näiteks arvude andmed.
+
+Teine klass on võrrandi arvutamiseks.
