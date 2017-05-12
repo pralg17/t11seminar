@@ -7,3 +7,12 @@ List<String> Seminar = new List<String>();
 Seminar.add("Test");
 System.out.println(supplierNames.get(1));
  
+Linked list'i eelised
+1)kui soovid pidevalt lisada ja kustutada elemente
+2)kui ei tea kui palju elemente listi tuleb
+3)kui tahad lisada elemente kuhugi vahele
+
+ArrayList'i eelised
+1)kui on vaja indekseeritud elemente
+2)kui mälu on mure. täidetud massiiv võtab vähem mälu
+3)elementide kiire leidmine
