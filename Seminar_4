@@ -1,0 +1,9 @@
+Array list leiab spetsiifilisi elemente kiiremini üles kui liasamine ja kustutamine võtab kauem aega.
+
+Linked list on kiirem elementide lisamises ja kustutamises kuid aeglasem mingi kindla elemendi ostsimisel/leidmisel. 
+
+Listi loomine:
+List<String> Seminar = new List<String>();
+Seminar.add("Test");
+System.out.println(supplierNames.get(1));
+ 
