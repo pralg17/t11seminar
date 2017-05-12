@@ -8,16 +8,17 @@ Igaüks lisab tunnis määratud teemal tutvustuse omapoolsesse faili + muud komm
 ***************************
 Andmepäringute koostamine liidesekäskude abil - järjestamine, filtreerimine
 
-*liides halduri jaoks (data access object e DAO), mis laiendab tüüpi CrudRepository
-*Vajalik lisada @Transactional annotatsioon
+* liides halduri jaoks (data access object e DAO), mis laiendab tüüpi CrudRepository
+* Vajalik lisada @Transactional annotatsioon
 Siin saab defineerida omaloodud päringutüüpe määratud objekti kohta (nt otsimine perekonnanime järgi või välja filteerida etteantud kogusest suurema/väiksemad väärtused).
 
-*Näide DAO liidese imporditavatest teekidest ja annotatsioonist:
-(Haldur.java)
+* Näide DAO liidese imporditavatest teekidest ja annotatsioonist:
+* Haldur.java
+```
 import javax.transaction.Transactional;
 import org.springframework.data.repository.CrudRepository;
-```
-*@Transactional
+
+@Transactional
 public interface Haldur extends CrudRepository<MinuObjekt, String>{
 	List<Obejkt> findByperekonnanimi(String perekonnanimi);
 	List<Objekt> findAllByOrderBy();
@@ -28,18 +29,17 @@ public interface Haldur extends CrudRepository<MinuObjekt, String>{
 }
 ```
 *(http://docs.spring.io/spring-data/jpa/docs/1.3.4.RELEASE/reference/html/jpa.repositories.html)
-*
-*
-*klassis, kus eksemplarid luuakse
+
+* klassis, kus eksemplarid luuakse
 
 ```
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-*@Entity   //et tabel luua antud klassi põhjal
-*@Table(name="tabelinimi")
-*public class Isik{
+@Entity   //et tabel luua antud klassi põhjal
+@Table(name="tabelinimi")
+public class Isik{
 	@Id      //annotatsioon primaarvõtme järgi(nimi) küsimiseks
         public String nimi;
  	public float hind;
@@ -47,7 +47,7 @@ import javax.persistence.Table;
 }
 ```
 
-*rakenduse fail
+* rakenduse fail
 ```
 public class Rakendus {
 
@@ -57,8 +57,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 private Haldur haldur;
 
 public void p2ringud() {
-     List<Isik> persons = repository.findBynimi("Kask");
-     List<Isik> findBysaldoLessThan(float kogus);
+     List<Isik> p = haldur.findBynimi("Kask");
+     List<Isik> p = findBysaldoLessThan(float kogus);
 
    }
 ```
