@@ -1,22 +1,19 @@
-# t11seminar
 
-Seminari küsimused
-
-http://minitorn.tlu.ee/~jaagup/kool/java/kursused/17/prpohi/kys.txt
-
-Igaüks lisab tunnis määratud teemal tutvustuse omapoolsesse faili + muud kommentaarid, mis üldisest vestlusest võiksid vajalikuna meelde jääda.
-
+Mark Väljak 2 küsimus
 
 byte
 defaut value on 0
 8 biti
 max value 127
+kasutatakse põhiliselt arraydes, et mälu säästa, põhiliselt
+intide kohal, sest byte on 4 kora väiksem, kui int
 
 
 short
 16 biti
 Max value 32,767
 defaut value 0
+2x väiksem, kui int
 
 int
 32 biti mälu
@@ -41,3 +38,6 @@ ainult kaks väärtust, true ja false
 Default value is false
 
 char
+char on 16 biti unicode täht
+kasutatakse stringide salvestamiseks 
+8 tükki 
