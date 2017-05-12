@@ -1,0 +1,13 @@
+ <script language="javascript">
+    var xmlhttp;
+    function init() {
+       // HTML-is pead kasutama javascripti, looma var xmlhttp, function init() kus näitac ära järgmisel real oleva.
+       xmlhttp = new XMLHttpRequest();
+    }
+    // Selleks, et REST teenust välja kutsuda nt: 
+    function getdetails() {
+        var empno = document.getElementById("empno");
+        var url = "http://localhost:8084/webservicedemo/resources/employee/" + empno.value;
+        xmlhttp.open('GET',url,true);
+        xmlhttp.send(null);
+        //
