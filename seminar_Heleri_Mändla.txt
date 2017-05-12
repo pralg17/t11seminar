@@ -1,6 +1,8 @@
 Andmeid sisaldava klassi eksemplari kasutamine Isikukoodi näitel
+Luuakse klass - isikukood(sugu, sünniaasta, sünnikuupäev, järjenr, kontrollnr)
+Kasutaja sisestab isikukoodi
+Algselt on see stringina sisestatud. Kontrollitakse sisestatud numbri pikkuse õigsust, seejärel muuta see int arvuks ja splitiga jagada vastavateks osadeks. 
+Esimene sümbol on sugu, järgmised 2 sünniaasta, sellest järgmised neli sünnikuupäev, järgmised 3 järjenumbrid ja viimane kontrollnr.
 
-Kasutaja sisestab isikukoodi.Algselt on see stringina sisestatud. Kontrollitakse sisestatud numbri pikkuse õigsust, seejärel muuta see int arvuks ja splitiga jagada vastavateks osadeks. 
-Esimene sümbol on sugu, järgmised 2 sünniaasta, sellest järgmised neli sünnikuupäev.
 
 
