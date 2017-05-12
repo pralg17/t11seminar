@@ -57,8 +57,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 private Haldur haldur;
 
 public void p2ringud() {
-     List<Isik> p = haldur.findBynimi("Kask");
-     List<Isik> p = findBysaldoLessThan(float kogus);
+     Isik p = new Isik();
+     Isik p = haldur.findBynimi("Kask");
+     Isik p = findBysaldoLessThan(float kogus);
 
    }
 ```
