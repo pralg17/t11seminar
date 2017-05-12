@@ -33,9 +33,9 @@ import javax.persistence.Table;
 
 PS PEAB OLEMAS OLEMA ARGUMENDITA KONSTRUKTOR
 
-@Entity   //et tabel luua antud klassi põhjal
-@Table(name="tabelinimi")
-public class Isik{
+*@Entity   //et tabel luua antud klassi põhjal
+*@Table(name="tabelinimi")
+*public class Isik{
 	@Id      //annotatsioon primaarvõtme järgi(nimi) küsimiseks
         public String nimi;
  	public float hind;
@@ -43,10 +43,10 @@ public class Isik{
 }
 
 
--rakenduse fail
+*rakenduse fail
 public class Rakendus {
 
-import org.springframework.beans.factory.annotation.Autowired;  
+*import org.springframework.beans.factory.annotation.Autowired;  
 
 @Autowired
 private Haldur haldur;
