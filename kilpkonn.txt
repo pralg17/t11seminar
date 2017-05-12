@@ -1,0 +1,8 @@
+Kilpkonna klass
+deklareeritud on x ja y
+suundade jaoks on erinevad massiivid
+liikumiseks on tehtud moodused (paremale, vasakule, ylevale, alla)
+suunad on vahemikus 0-3
+ylemine suund on 0 kraadi, paremale 90, alla 180 ja vasakule 270 kraadi
+keelatud on suunal olla alla 0'i v6i yle 3
+kilpkonna hetkelise asukoha näitamiseks on eraldi klass
