@@ -1,0 +1,16 @@
+Lood ühenduse, lood tabeli
+teed meetodi sissekande loomiseks nt create(String name, Integer age)
+andmete lisamine:
+
+saadad päringu "insert into Student (name, age) values (?,?)"
+create(päring, name, age)
+
+
+primary key saamiseks
+
+teed connectioni ja siis
+getPrimaryKeys(null, null, "table_name");
+
+muutmiseks teed uue meetodi sissekannete updatemiseks
+void update(Integer id, Integer age);
+Student.update(2, 20);
