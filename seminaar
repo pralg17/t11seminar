@@ -1,0 +1,10 @@
+Oma täiendava(te) klassi(de) kasutamine veebilahenduse juures joone punktide arvutamisel y=ax+b valemigaluuakse klass 
+
+Selleks tehakse üks klass, mis annad selle arvutamise andmed, ja teine klass, mille ssisse selled andmed pannakse. 
+Pärast luuakse klass, mis teeb arvutuse teise klassi andmetega. 
+
+naiteks Klassis1 on kirjutatud, muutujad
+
+Klass2 sisaldab meetodi võrrandi arvutamiseks
+
+Veebis HttpSessioni abil Klassi1 kaudu pannakse andmed, mis omistavad a ja b väärtused, ja Klass2 annab välja vastust
