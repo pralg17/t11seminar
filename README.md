@@ -8,16 +8,16 @@ Igaüks lisab tunnis määratud teemal tutvustuse omapoolsesse faili + muud komm
 ***************************
 Andmepäringute koostamine liidesekäskude abil - järjestamine, filtreerimine
 
--liides halduri jaoks (data access object e DAO), mis laiendab tüüpi CrudRepository
-Vajalik lisada @Transactional annotatsioon
-Siin saab defineerida omaloodud päringutüüpe määratud objekti kohta (nt otsimine perekonnanime järgi võii välja filteerida etteantud kogusest suurema/väiksemad väärtused)
+*liides halduri jaoks (data access object e DAO), mis laiendab tüüpi CrudRepository
+*Vajalik lisada @Transactional annotatsioon
+Siin saab defineerida omaloodud päringutüüpe määratud objekti kohta (nt otsimine perekonnanime järgi või välja filteerida etteantud kogusest suurema/väiksemad väärtused).
 
-Näide DAO liidese imporditavatest teekidest ja annotatsioonist:
+*Näide DAO liidese imporditavatest teekidest ja annotatsioonist:
 (Haldur.java)
 import javax.transaction.Transactional;
 import org.springframework.data.repository.CrudRepository;
 
-@Transactional
+*@Transactional
 public interface Haldur extends CrudRepository<MinuObjekt, String>{
      public List<Obejkt> findByperekonnanimi(String perekonnanimi);
      public List<Objekt> findAllByOrderByâ€¦();
@@ -26,7 +26,7 @@ public interface Haldur extends CrudRepository<MinuObjekt, String>{
      public List<Objekt> findByâ€¦GreaterThan(float kogus);
 }
 
--klassis, kus eksemplarid luuakse
+*klassis, kus eksemplarid luuakse
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
