@@ -18,24 +18,24 @@ import javax.transaction.Transactional;
 import org.springframework.data.repository.CrudRepository;
 ```
 *@Transactional
-    public interface Haldur extends CrudRepository<MinuObjekt, String>{
-List<Obejkt> findByperekonnanimi(String perekonnanimi);
-List<Objekt> findAllByOrderBy();
-List<Objekt> findByEmailEpostAndNimi(String epost, String nimi);
-List<Objekt> findByalgusLike(String algus);
-List<Objekt> findBykogusLessThan(float kogus);
-List<Objekt> findBykogusGreaterThan(float kogus);
+public interface Haldur extends CrudRepository<MinuObjekt, String>{
+	List<Obejkt> findByperekonnanimi(String perekonnanimi);
+	List<Objekt> findAllByOrderBy();
+	List<Objekt> findByEmailEpostAndNimi(String epost, String nimi);
+	List<Objekt> findByalgusLike(String algus);
+	List<Objekt> findBykogusLessThan(float kogus);
+	List<Objekt> findBykogusGreaterThan(float kogus);
 }
 ```
 *(http://docs.spring.io/spring-data/jpa/docs/1.3.4.RELEASE/reference/html/jpa.repositories.html)
 *
 *
 *klassis, kus eksemplarid luuakse
+
+```
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
-PS PEAB OLEMAS OLEMA ARGUMENDITA KONSTRUKTOR
 
 *@Entity   //et tabel luua antud klassi põhjal
 *@Table(name="tabelinimi")
@@ -45,19 +45,21 @@ PS PEAB OLEMAS OLEMA ARGUMENDITA KONSTRUKTOR
  	public float hind;
 	public float kogus;
 }
-
+```
 
 *rakenduse fail
+```
 public class Rakendus {
 
-*import org.springframework.beans.factory.annotation.Autowired;  
+import org.springframework.beans.factory.annotation.Autowired;  
 
 @Autowired
 private Haldur haldur;
 
-   public void p2ringud() {
+public void p2ringud() {
      List<Isik> persons = repository.findBynimi("Kask");
      List<Isik> findBysaldoLessThan(float kogus);
 
    }
+```
  
