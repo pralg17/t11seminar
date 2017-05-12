@@ -7,3 +7,7 @@ süsteem aru et oled ikka sisse logitud ja saab ikka su andmed kätte kasutajaob
 Nt kui login sisse siis kasutan mingi sisselogimistunnust ja salvestad sessiooniparameetri. 
 Ja teistel lehekülgedel kontrollid kui parameeter on olemas siis järelikult oled sisse logitud. 
 Ja selle jägi kuvan asju mis on mõeldud ainult sisselogitud kasutajale. 
+
+HttpSession session = request.getSession();
+Object obj = new Object();
+session.setAttribute(“object”, obj);
