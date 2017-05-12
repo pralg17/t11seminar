@@ -1,0 +1,9 @@
+HttpSessioni abil objekti(de) meeles pidamine brauserisessiooni vältel
+
+Browser hoiab ajutiselt mälus sinu loodud java objekti. Nt kui tahad realiseerida sisselogimist,
+siis ta tuvastab kasutaja (loob kasutajaobjekti andmebaasi andmete põhjal) ja siis jätab httpsessioni 
+abil meelde. See on vajalik et kui lähed muule lehele (nt avalehet broneerimise peale), siis saab 
+süsteem aru et oled ikka sisse logitud ja saab ikka su andmed kätte kasutajaobjektist. 
+Nt kui login sisse siis kasutan mingi sisselogimistunnust ja salvestad sessiooniparameetri. 
+Ja teistel lehekülgedel kontrollid kui parameeter on olemas siis järelikult oled sisse logitud. 
+Ja selle jägi kuvan asju mis on mõeldud ainult sisselogitud kasutajale. 
