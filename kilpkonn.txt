@@ -1,0 +1,9 @@
+Kilpkonna klass
+deklareeritud on x ja y ja need on kilpkonna klassis omadused
+suundade jaoks on massiiv ja nende omadustele on muutuja
+liikumiseks on tehtud moodused (paremale, vasakule, ylevale, alla)
+suunad on vahemikus 0-3
+ülemine suund on 0 kraadi, paremale 90, alla 180 ja vasakule 270 kraadi ja negatiivsed ei tohi olla
+keelatud on suunal olla alla 0'i või üle 3
+kilpkonna hetkelise asukoha näitamiseks on eraldi klass
+kilpkonna klassil on vastavad meetodid vasakule, paremale, alla või ülesse pööramiseks
