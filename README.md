@@ -19,13 +19,16 @@ import org.springframework.data.repository.CrudRepository;
 
 *@Transactional
 public interface Haldur extends CrudRepository<MinuObjekt, String>{
-     public List<Obejkt> findByperekonnanimi(String perekonnanimi);
-     public List<Objekt> findAllByOrderByâ€¦();
-     public List<Objekt> findByâ€¦Like(String algus);
-     public List<Objekt> findByâ€¦LessThan(float kogus);
-     public List<Objekt> findByâ€¦GreaterThan(float kogus);
+     *List<Obejkt> findByperekonnanimi(String perekonnanimi);
+     *List<Objekt> findAllByOrderBy();
+     *List<Objekt> findByEmailEpostAndNimi(String epost, String nimi);
+     *List<Objekt> findByalgusLike(String algus);
+     *List<Objekt> findBykogusLessThan(float kogus);
+     *List<Objekt> findBykogusGreaterThan(float kogus);
 }
-
+*(http://docs.spring.io/spring-data/jpa/docs/1.3.4.RELEASE/reference/html/jpa.repositories.html)
+*
+*
 *klassis, kus eksemplarid luuakse
 import javax.persistence.Entity;
 import javax.persistence.Id;
