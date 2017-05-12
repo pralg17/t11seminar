@@ -1,0 +1,10 @@
+#Java kasutusvaldkonnad, käivitamise moodused
+
+Peamiselt suuremahulistes veebirakendustes, veebilehtedel, andmestike haldamiseks, android op. süsteem.
+Jookseb äppides, brauserites, töölaua rakendustes. 
+Java suurimaks eeliseks on see, et ta on väga laialt levinud.
+ 
+Käivitada saab läbi terminali (kompilaatori olemasolul) või läbi Spring Boot'i (kasutades mavenit).
+ 
+javac *.java
+java filename
