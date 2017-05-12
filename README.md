@@ -56,4 +56,4 @@ private Haldur haldur;
      List<Isik> findBysaldoLessThan(float kogus);
 
    }
- }
+ 
