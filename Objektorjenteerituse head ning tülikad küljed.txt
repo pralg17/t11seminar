@@ -1,6 +1,6 @@
 *Objektorjenteeritud head küljed:
 1)Programm on paremini nähtav.
-2)Vigade leidmine töös on kergem laiali määritud andmemassi tõttu.
+2)Vigade leidmine töös on kergem laiali laotatud andmemassi tõttu.
 3)Iga objekti kohta käiv info on kindlas kohas alati.
 
 *Obejktorjenteeritud halb pool:
