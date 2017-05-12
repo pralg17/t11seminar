@@ -1,16 +1,12 @@
-Lood ühenduse, lood tabeli
-teed meetodi sissekande loomiseks nt create(String name, Integer age)
-andmete lisamine:
+tuleb teha entity
 
-saadad päringu "insert into Student (name, age) values (?,?)"
-create(päring, name, age)
+@Entity
+@Table(name = "users")
 
+teed users kassi kuhu paned propertid
 
-primary key saamiseks
+teed interface mis extendib CrudRepository kus on lihtsamad funktsioonid kirjeldatud
 
-teed connectioni ja siis
-getPrimaryKeys(null, null, "table_name");
+teed oma user obejkti ja saadad selle dao-ga andmebaasi
 
-muutmiseks teed uue meetodi sissekannete updatemiseks
-void update(Integer id, Integer age);
-Student.update(2, 20);
+selleks et muuta peaks pärima andmebaasist ja muutma andmed ära ja siis tagasi saatma
