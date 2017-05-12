@@ -1,8 +1,5 @@
-
-Kui me soovime n‰iteks luua t‰isarvude massiivi someNumbers, siis saaksime selle deklareerida nii:
+Kui me soovime n√§iteks luua t√§isarvude massiivi someNumbers, siis saaksime selle deklareerida nii:
 
 int[] someNumbers = new int[10];
-Sellisel juhul on massiivi elemendi t¸¸p int (t‰isarv). Lisaks m‰‰ratakse ka massiivi pikkus, milleks on 10 elementi, st reserveeritakse m‰lu massiivile. Esimene element on someNumbers[0]. Esimese elemendi saaks v‰‰rtustada nii: someNumbers[0] = 5;
 
-
-Massiive kasutatakse juhul kui muutujate arv on liiga suur ning miassiivide kasutamine lihtsusatb sellega muutujate kasutamist.
+Sellisel juhul on massiivi elemendi t√º√ºp int (t√§isarv). Lisaks m√§√§ratakse ka massiivi pikkus, milleks on 10 elementi, st reserveeritakse m√§lu massiivile. Esimene element on someNumbers[0]. Esimese elemendi saaks v√§√§rtustada nii: someNumbers[0] = 5;
