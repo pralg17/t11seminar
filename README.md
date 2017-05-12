@@ -18,13 +18,13 @@ import javax.transaction.Transactional;
 import org.springframework.data.repository.CrudRepository;
 
 *@Transactional
-public interface Haldur extends CrudRepository<MinuObjekt, String>{
-     *List<Obejkt> findByperekonnanimi(String perekonnanimi);
-     *List<Objekt> findAllByOrderBy();
-     *List<Objekt> findByEmailEpostAndNimi(String epost, String nimi);
-     *List<Objekt> findByalgusLike(String algus);
-     *List<Objekt> findBykogusLessThan(float kogus);
-     *List<Objekt> findBykogusGreaterThan(float kogus);
+    public interface Haldur extends CrudRepository<MinuObjekt, String>{
+*List<Obejkt> findByperekonnanimi(String perekonnanimi);
+*List<Objekt> findAllByOrderBy();
+*List<Objekt> findByEmailEpostAndNimi(String epost, String nimi);
+*List<Objekt> findByalgusLike(String algus);
+*List<Objekt> findBykogusLessThan(float kogus);
+*List<Objekt> findBykogusGreaterThan(float kogus);
 }
 *(http://docs.spring.io/spring-data/jpa/docs/1.3.4.RELEASE/reference/html/jpa.repositories.html)
 *
