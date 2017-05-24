@@ -1,0 +1,39 @@
+Java lihtandmetüübid:
+
+1.byte
+    Suurus: 8-bit
+    Väärtuse vahemik: -127 kuni 127
+    Automaatne väärtus:  0
+    Kasutus: kasutatakse näiteks mälu kokkuhodimiseks massiivides, kuna võtab neli korda vähem ruumi kui int
+2.Short
+    Suurus: 16-bit
+    Väärtuse vahemik: -32,768 kuni 32,767
+    Automaatne väärtus:  0
+    Kasutus: kasutatakse samadel põhjustel nagu byte, aga see on kaks korda väiksem intist
+3.int
+    Suurus: 32-bit
+    Väärtuse vahemik: -2,147,483,648 kuni 2,147,483,647
+    Automaatne väärtus:  0
+    Kasutus: kasutatakse täisarvude puhul
+4.long
+    Suurus: 64-bit
+    Väärtuse vahemik: -9,223,372,036,854,775,808 kuni 9,223,372,036,854,775,807
+    Automaatne väärtus: 0L
+    Kasutus: Kasutatakse siis, kui on vaja suuremat arvude vahemikku, kui itn võimaldab
+5.float
+    Suurus: 32-bit IEEE 754 koma punkti
+    Automaatne väärtus: 0.0f
+    Kausutus: Seda kasutatakse, et säästa mälu mahukates masiivides komapunkt arvudelt ja ei kasutata kunagi näiteks valuuta puhul
+6.double
+    Suurus: 64-bit IEEE 754 koma punkti
+    Automaatne väärtus: 0.0d
+    Kasutus: Seda kasutatakse enamus puhkudel, kui on komapunkt arvud
+7.boolean
+    Suurus: 1-bit
+    Väärtused: true või false
+    Automaatne väärtus: false
+    Kasutus: Siis kui on millegil võimalik ainult kaks väärtust
+8.char
+    Suurus: 16-bit
+    Väärtuse vahemik: \u0000(0) kuni \uffff(65,535)
+    Kasutus: tähetede puhul 
